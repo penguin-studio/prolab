@@ -1,0 +1,164 @@
+.dachi-opt table.theme-option-table{
+    border: 0px solid black;
+    border-radius: 20px;
+    padding: 30px 20px;
+}
+.dachi-opt .theme-option-table h1{
+  color: #0ca72d;
+  padding: 0;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+.dachi-opt .theme-option-table td{
+  padding-bottom: 15px;
+}
+.dachi-opt .theme-option-table h3{
+  padding: 0;
+  margin: 0;
+  padding-top: 3px;
+}
+.dachi-opt #title{
+  width: 60%;
+  padding: 20px 30px;
+  border-radius: 15px;
+  box-shadow: 0 0 10px;
+  background-color: rgba(255, 255, 255, 0.5);
+  font-weight: bold;
+  color: #14a217;
+  font-size: 28px;
+}
+.dachi-opt table.table-block{
+  border: 1px solid #ccc !important;
+  border-radius: 0 !important;
+  margin-bottom: 20px;
+}
+#container {
+max-width: 1400px;
+margin: 20px auto 20px;
+padding: 0;
+}
+#container > h1 {
+padding: 0px;
+font-weight: 400;
+text-align: left;
+}
+p {
+margin: 0 0 5px;
+line-height: 1.5;
+}
+.info{
+color:rgba(78, 78, 78, 0.8);
+width:100%;
+margin: 40px auto;
+text-align: center;
+font-weight:300;
+}
+.info a {
+color: #bbb;
+text-decoration:none;
+}
+.info a:hover {
+color: #888;
+}
+/* Конец стилей демо-страницы */
+
+/* Базовый контейнер табов */
+.tabs {
+
+padding: 0px;
+margin: 0 auto;
+
+}
+/* Стили секций с содержанием */
+section {
+display: none;
+padding: 15px;
+background: #fff;
+border: 1px solid #ddd;
+}
+.tabs input[id*="tab"] {
+  display: none;
+}
+/* Стили вкладок (табов) */
+.tabs label {
+display: inline-block;
+margin: 0 0 -1px;
+padding: 15px 25px;
+font-weight: 600;
+text-align: center;
+color: #aaa;
+border: 1px solid #ddd;
+background: #f1f1f1;
+border-radius: 3px 3px 0 0;
+font-size: 20px;
+}
+.my-button-primary{
+  width: 200px;
+  height:50px !important;
+  font-size: 20px !important;
+}
+/* Шрифт-иконки от Font Awesome в формате Unicode */
+/*.tabs label:before {
+font-family: fontawesome;
+font-weight: normal;
+margin-right: 10px;
+}
+.tabs label[for*="1"]:before {
+content: "\f19a";
+}
+.tabs label[for*="2"]:before {
+content: "\f17a";
+}
+.tabs label[for*="3"]:before {
+content: "\f13b";
+}
+.tabs label[for*="4"]:before {
+content: "\f13c";
+}*/
+/* изменения стиля заголовков вкладок при наведении */
+.tabs label:hover {
+color: #888;
+cursor: pointer;
+}
+/* стили для активной вкладки */
+.tabs input:checked + label {
+color: #555;
+border: 1px solid #ddd;
+border-top: 1px solid #009933;
+border-bottom: 1px solid #fff;
+background: #fff;
+}
+/* активация секций с помощью переключателя :checked */
+#tab1:checked ~ #content1,
+#tab2:checked ~ #content2,
+#tab3:checked ~ #content3,
+#tab4:checked ~ #content4 {
+display: block;
+}
+/* медиа запросы для различных типов носителей */
+@media screen and (max-width: 680px) {
+.tabs label {
+font-size: 0;
+}
+
+.tabs label:before {
+margin: 0;
+font-size: 18px;
+}
+}
+@media screen and (max-width: 400px) {
+.tabs label {
+padding: 15px;
+}
+}
+#YMapsID{
+  width: 100%;
+  height: 300px;
+}
+table.add-box tr.upload-foto-box h4{
+   font-size: 20px;
+   margin-top: 10px;
+   margin-bottom: 5px;
+   padding: 0;
+   padding-left: 0px;
+}

@@ -1,0 +1,57 @@
+
+@font-face {
+    font-family: 'pantonblack_caps';
+    src: url('panton-blackcaps.eot');
+    src: url('panton-blackcaps.eot?#iefix') format('embedded-opentype'),
+         url('panton-blackcaps.woff2') format('woff2'),
+         url('panton-blackcaps.woff') format('woff'),
+         url('panton-blackcaps.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'pantonblack_italic_caps';
+    src: url('panton-blackitaliccaps.eot');
+    src: url('panton-blackitaliccaps.eot?#iefix') format('embedded-opentype'),
+         url('panton-blackitaliccaps.woff2') format('woff2'),
+         url('panton-blackitaliccaps.woff') format('woff'),
+         url('panton-blackitaliccaps.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'pantonlight_caps';
+    src: url('panton-lightcaps.eot');
+    src: url('panton-lightcaps.eot?#iefix') format('embedded-opentype'),
+         url('panton-lightcaps.woff2') format('woff2'),
+         url('panton-lightcaps.woff') format('woff'),
+         url('panton-lightcaps.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'pantonlight_italic_caps';
+    src: url('panton-lightitaliccaps.eot');
+    src: url('panton-lightitaliccaps.eot?#iefix') format('embedded-opentype'),
+         url('panton-lightitaliccaps.woff2') format('woff2'),
+         url('panton-lightitaliccaps.woff') format('woff'),
+         url('panton-lightitaliccaps.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+
+}
